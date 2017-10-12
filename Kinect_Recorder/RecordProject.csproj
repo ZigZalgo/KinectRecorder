@@ -38,6 +38,12 @@
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Kinect_Recorder.App</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>kinect.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Aegis.SignalR.Client.TypedHubProxy, Version=1.0.2.18902, Culture=neutral, PublicKeyToken=280dc27c3ffc9248, processorArchitecture=MSIL">
       <HintPath>packages\Aegis.SignalR.Client.1.0.2\lib\net45\Aegis.SignalR.Client.TypedHubProxy.dll</HintPath>
@@ -142,6 +148,9 @@
     <Resource Include="Resources\kinect.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="kinect.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

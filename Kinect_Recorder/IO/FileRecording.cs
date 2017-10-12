@@ -55,7 +55,9 @@ namespace Kinect_Recorder.IO
 
         public static void endFile(string newPath)
         {
+            if(writer != null)
             writer.Close();
+            if(stream != null)
             stream.Close();
             string path = Path.GetTempPath();
             path += "tmp.JSON";

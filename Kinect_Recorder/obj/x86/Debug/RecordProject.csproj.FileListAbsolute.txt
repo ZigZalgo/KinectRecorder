@@ -22,3 +22,27 @@ C:\Users\Cooper\Documents\CPSC 601\SOD_Sensor_v3-master\SOD_Sensor\obj\x86\Debug
 C:\Users\Cooper\Documents\CPSC 601\SOD_Sensor_v3-master\SOD_Sensor\obj\x86\Debug\Kinect_Recorder.Properties.Resources.resources
 C:\Users\Cooper\Documents\CPSC 601\SOD_Sensor_v3-master\SOD_Sensor\obj\x86\Debug\Kinect_Recorder.exe
 C:\Users\Cooper\Documents\CPSC 601\SOD_Sensor_v3-master\SOD_Sensor\obj\x86\Debug\Kinect_Recorder.pdb
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\bin\Debug\Kinect_Recorder.exe.config
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\bin\Debug\Kinect_Recorder.exe
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\bin\Debug\Kinect_Recorder.pdb
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\bin\Debug\Aegis.SignalR.Client.TypedHubProxy.dll
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\bin\Debug\Aegis.SignalR.Infrastructures.dll
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\bin\Debug\MathNet.Numerics.dll
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\bin\Debug\MathNet.Numerics.xml
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Debug\AppWindow.g.cs
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Debug\App.g.cs
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Debug\Kinect_Recorder_MarkupCompile.cache
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Debug\Kinect_Recorder_MarkupCompile.lref
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Debug\AppWindow.baml
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Debug\Kinect_Recorder.g.resources
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Debug\Kinect_Recorder.Properties.Resources.resources
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Debug\RecordProject.csproj.GenerateResource.Cache
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Debug\RecordProject.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Debug\Kinect_Recorder.exe
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Debug\Kinect_Recorder.pdb

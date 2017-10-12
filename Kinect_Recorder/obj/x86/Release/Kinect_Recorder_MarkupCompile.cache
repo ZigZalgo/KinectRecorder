@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Debug\
+C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Release\
 Kinect_Recorder
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\App.xaml
 1-2028407148
 
-191272686787
+151658424487
 20603432683
 AppWindow.xaml;
 
