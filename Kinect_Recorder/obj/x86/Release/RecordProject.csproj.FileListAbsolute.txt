@@ -22,3 +22,61 @@ C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Releas
 C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Release\RecordProject.csproj.CoreCompileInputs.cache
 C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Release\Kinect_Recorder.exe
 C:\Users\Cooper\Documents\CPSC601\Kinect_Recorder\Kinect_Recorder\obj\x86\Release\Kinect_Recorder.pdb
+C:\Users\Cooper\Documents\Kinect_Recorder\bin\Release\Kinect_Recorder.exe.config
+C:\Users\Cooper\Documents\Kinect_Recorder\bin\Release\Kinect_Recorder.exe
+C:\Users\Cooper\Documents\Kinect_Recorder\bin\Release\Kinect_Recorder.pdb
+C:\Users\Cooper\Documents\Kinect_Recorder\bin\Release\Aegis.SignalR.Client.TypedHubProxy.dll
+C:\Users\Cooper\Documents\Kinect_Recorder\bin\Release\Aegis.SignalR.Infrastructures.dll
+C:\Users\Cooper\Documents\Kinect_Recorder\bin\Release\MathNet.Numerics.dll
+C:\Users\Cooper\Documents\Kinect_Recorder\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\Cooper\Documents\Kinect_Recorder\bin\Release\Microsoft.Kinect.dll
+C:\Users\Cooper\Documents\Kinect_Recorder\bin\Release\Newtonsoft.Json.dll
+C:\Users\Cooper\Documents\Kinect_Recorder\bin\Release\MathNet.Numerics.xml
+C:\Users\Cooper\Documents\Kinect_Recorder\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\Cooper\Documents\Kinect_Recorder\bin\Release\Microsoft.Kinect.xml
+C:\Users\Cooper\Documents\Kinect_Recorder\bin\Release\Newtonsoft.Json.xml
+C:\Users\Cooper\Documents\Kinect_Recorder\obj\x86\Release\RecordProject.csprojResolveAssemblyReference.cache
+C:\Users\Cooper\Documents\Kinect_Recorder\obj\x86\Release\AppWindow.g.cs
+C:\Users\Cooper\Documents\Kinect_Recorder\obj\x86\Release\App.g.cs
+C:\Users\Cooper\Documents\Kinect_Recorder\obj\x86\Release\Kinect_Recorder_MarkupCompile.cache
+C:\Users\Cooper\Documents\Kinect_Recorder\obj\x86\Release\Kinect_Recorder_MarkupCompile.lref
+C:\Users\Cooper\Documents\Kinect_Recorder\obj\x86\Release\AppWindow.baml
+C:\Users\Cooper\Documents\Kinect_Recorder\obj\x86\Release\Kinect_Recorder.g.resources
+C:\Users\Cooper\Documents\Kinect_Recorder\obj\x86\Release\Kinect_Recorder.Properties.Resources.resources
+C:\Users\Cooper\Documents\Kinect_Recorder\obj\x86\Release\RecordProject.csproj.GenerateResource.Cache
+C:\Users\Cooper\Documents\Kinect_Recorder\obj\x86\Release\RecordProject.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\Documents\Kinect_Recorder\obj\x86\Release\Kinect_Recorder.exe
+C:\Users\Cooper\Documents\Kinect_Recorder\obj\x86\Release\Kinect_Recorder.pdb
+C:\Users\Cooper\Documents\Kinect_Recorder\bin\Release\Kinect_Recorder.exe.manifest
+C:\Users\Cooper\Documents\Kinect_Recorder\bin\Release\Kinect_Recorder.application
+C:\Users\Cooper\Documents\Kinect_Recorder\obj\x86\Release\Kinect_Recorder.exe.manifest
+C:\Users\Cooper\Documents\Kinect_Recorder\obj\x86\Release\Kinect_Recorder.application
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\bin\Release\Kinect_Recorder.exe.config
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\bin\Release\Kinect_Recorder.exe.manifest
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\bin\Release\Kinect_Recorder.application
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\bin\Release\Kinect_Recorder.exe
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\bin\Release\Kinect_Recorder.pdb
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\bin\Release\Aegis.SignalR.Client.TypedHubProxy.dll
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\bin\Release\Aegis.SignalR.Infrastructures.dll
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\bin\Release\MathNet.Numerics.dll
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\bin\Release\Microsoft.Kinect.dll
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\bin\Release\Newtonsoft.Json.dll
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\bin\Release\MathNet.Numerics.xml
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\bin\Release\Microsoft.Kinect.xml
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\bin\Release\Newtonsoft.Json.xml
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\obj\x86\Release\RecordProject.csprojResolveAssemblyReference.cache
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\obj\x86\Release\AppWindow.g.cs
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\obj\x86\Release\App.g.cs
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\obj\x86\Release\Kinect_Recorder_MarkupCompile.cache
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\obj\x86\Release\Kinect_Recorder_MarkupCompile.lref
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\obj\x86\Release\AppWindow.baml
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\obj\x86\Release\Kinect_Recorder.g.resources
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\obj\x86\Release\Kinect_Recorder.Properties.Resources.resources
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\obj\x86\Release\RecordProject.csproj.GenerateResource.Cache
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\obj\x86\Release\RecordProject.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\obj\x86\Release\Kinect_Recorder.exe.manifest
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\obj\x86\Release\Kinect_Recorder.application
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\obj\x86\Release\Kinect_Recorder.exe
+C:\Users\Cooper\Documents\Kinect Recorder\Source\Kinect_Recorder\obj\x86\Release\Kinect_Recorder.pdb
