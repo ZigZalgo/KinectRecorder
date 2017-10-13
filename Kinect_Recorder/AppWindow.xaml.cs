@@ -32,8 +32,29 @@ namespace Kinect_Recorder
             AppendLog("Application started");
             InitializeKinect();
             AwwYeahMath.Instance.RunMathTest();
+        }
 
+        public bool IsKinectRuntimeInstalled
+        {
+            get
+            {
+                bool isInstalled;
+                try
+                {
+                    TestForKinectTypeLoadException();
+                    isInstalled = true;
+                }
+                catch (TypeInitializationException)
+                {
+                    isInstalled = false;
+                }
+                return isInstalled;
+            }
+        }
 
+        private void TestForKinectTypeLoadException()
+        {
+            KinectSensor kinectCheck = KinectSensor.GetDefault();
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -94,6 +115,16 @@ namespace Kinect_Recorder
         /// </summary>
         public void InitializeKinect()
         {
+            if (!IsKinectRuntimeInstalled)
+            {
+                MessageBoxResult result = MessageBox.Show("Microsoft Kinect Runtime 1.8 is required.\nClick \"OK\" to download Microsoft Kinect Runtime 1.8 from Microsoft's website.",
+                    "Kinect Runtime required",
+                    MessageBoxButton.OKCancel);
+                if (result == MessageBoxResult.OK)
+                {
+                    System.Diagnostics.Process.Start("https://www.microsoft.com/en-ca/download/details.aspx?id=44559");
+                }
+            }
             Properties.Settings.Default.DefaultDirectory = System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\cache\\";
             UpdateUIKinectConnection(false);
             InitializeKinectRendering();
@@ -127,14 +158,24 @@ namespace Kinect_Recorder
             // Connected
             if (state)
             {
-                imageURL = @"/SOD_Sensor;component/Resources/green_circle.png";
+                imageURL = @"/Kinect_Recorder;component/Resources/green_circle.png";
                 kinectStatusText = "Connected";
+                kinect_view_feed_button.IsEnabled = true;
             }
 
             // Disconnected
             else
             {
-                imageURL = @"/SOD_Sensor;component/Resources/red_circle.png";
+                if(FileRecording.recording)
+                    Stop_Recording();
+                Kinect_Feed.IsEnabled = false;
+                Kinect_Feed.Visibility = Visibility.Hidden;
+                Recording_Canvas.IsEnabled = false;
+                Recording_Canvas.Visibility = Visibility.Hidden;
+                View_Feed_Canvas.IsEnabled = true;
+                View_Feed_Canvas.Visibility = Visibility.Visible;
+                kinect_view_feed_button.IsEnabled = false;
+                imageURL = @"/Kinect_Recorder;component/Resources/red_circle.png";
                 kinectStatusText = "Disconnected";
             }
 
@@ -146,7 +187,7 @@ namespace Kinect_Recorder
         }
 
         /// <summary>
-        /// Open the Kinect feed tab.
+        /// Open the Kinect feed.
         /// </summary>
         private void kinect_view_feed_button_Click(object sender, RoutedEventArgs e)
         {
@@ -156,7 +197,8 @@ namespace Kinect_Recorder
             Recording_Canvas.Visibility = Visibility.Visible;
             View_Feed_Canvas.IsEnabled = false;
             View_Feed_Canvas.Visibility = Visibility.Hidden;
-
+            string imageURL = @"/Kinect_Recorder;component/Resources/green_circle.png";
+            Recording_Image.Source = new BitmapImage(new Uri(imageURL, UriKind.RelativeOrAbsolute));
         }
 
         /// <summary>
@@ -165,7 +207,7 @@ namespace Kinect_Recorder
         private void KinectSensor_IsAvailableChanged(object sender, IsAvailableChangedEventArgs e)
         {
             UpdateUIKinectConnection(e.IsAvailable);
-            AppendLog("Kinnect status changed: " + (e.IsAvailable ? "connected" : "disconnected"));
+            AppendLog("Kinect status changed: " + (e.IsAvailable ? "connected" : "disconnected"));
         }
 
 
@@ -202,32 +244,37 @@ namespace Kinect_Recorder
             {
                 FileRecording.recording = true;
                 Record_Button.Content = "Stop Rec";
-                imageURL = @"/SOD_Sensor;component/Resources/red_circle.png";
-                
+                imageURL = @"/Kinect_Recorder;component/Resources/red_circle.png";
+
             }
             else
             {
-                FileRecording.recording = false;
-                Microsoft.Win32.SaveFileDialog dlg = new Microsoft.Win32.SaveFileDialog();
-                dlg.FileName = "Joints"; // Default file name
-                dlg.DefaultExt = ".JSON"; // Default file extension
-                dlg.Filter = "JSon documents (.JSON)|*.JSON"; // Filter files by extension
-                // Show save file dialog box
-                Nullable<bool> result = dlg.ShowDialog();
-                // Process save file dialog box results
-                if (result == true)
-                {
-                    // Save document
-                    string filename = dlg.FileName;
-                    FileRecording.endFile(filename);
-                }
-
-                Record_Button.Content = "Rec";
-                imageURL = @"/SOD_Sensor;component/Resources/green_circle.png";
-                FileRecording.GenNewTempStreamWriter();
-                
+                Stop_Recording();
+                imageURL = @"/Kinect_Recorder;component/Resources/green_circle.png";
             }
+            // Load and set the new image state indicator
             Recording_Image.Source = new BitmapImage(new Uri(imageURL, UriKind.RelativeOrAbsolute));
+        }
+
+        private void Stop_Recording()
+        {
+            FileRecording.recording = false;
+            Microsoft.Win32.SaveFileDialog dlg = new Microsoft.Win32.SaveFileDialog();
+            dlg.FileName = "Joints"; // Default file name
+            dlg.DefaultExt = ".JSON"; // Default file extension
+            dlg.Filter = "JSon documents (.JSON)|*.JSON"; // Filter files by extension
+                                                          // Show save file dialog box
+            Nullable<bool> result = dlg.ShowDialog();
+            // Process save file dialog box results
+            if (result == true)
+            {
+                // Save document
+                string filename = dlg.FileName;
+                FileRecording.endFile(filename);
+            }
+
+            Record_Button.Content = "Rec";
+            FileRecording.GenNewTempStreamWriter();
         }
 
         private void Change_Directory_Button_Click(object sender, RoutedEventArgs e)
